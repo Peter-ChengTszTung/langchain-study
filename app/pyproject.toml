@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cases"
+version = "0.1.0"
+description = ""
+authors = ["Peter-ChengTszTung <chengtsztung.peter@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.329"
+openai = "^0.28.1"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
