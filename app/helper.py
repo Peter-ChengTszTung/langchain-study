@@ -24,7 +24,7 @@ def make_embeddings() -> Embeddings:
         openai_api_key=config.OPENAI_API_KEY,
         openai_api_base=config.OPENAI_API_BASE,
         openai_api_version=config.OPENAI_API_VERSION,
-        deployment=config.AZURE_DEPLOYMENT,
-        model=config.AZURE_CHAT_MODEL,
+        deployment=config.AZURE_EMBEDDINGS_DEPLOYMENT,
+        model=config.AZURE_EMBEDDINGS_MODEL,
     )
     return embeddings
