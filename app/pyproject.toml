@@ -11,6 +11,8 @@ langchain = "^0.0.329"
 openai = "^0.28.1"
 pymilvus = "^2.3.2"
 tiktoken = "^0.5.1"
+docarray = "^0.39.1"
+jq = "^1.6.0"
 
 
 [tool.poetry.group.dev.dependencies]
